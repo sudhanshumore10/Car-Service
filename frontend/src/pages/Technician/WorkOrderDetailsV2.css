@@ -1,0 +1,125 @@
+.wo-container {
+
+  padding: 20px;
+
+  background: #0f172a;
+
+  min-height: 100vh;
+
+  color: white;
+
+}
+
+/* HEADER */
+
+.wo-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+}
+
+.status {
+
+  background: #2563eb;
+
+  padding: 4px 10px;
+
+  border-radius: 20px;
+
+  font-size: 12px;
+
+}
+
+/* INFO GRID */
+
+.wo-info-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 15px;
+
+  margin: 20px 0;
+
+}
+
+.card {
+
+  background: #1e293b;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+}
+
+/* TABS */
+
+.tabs {
+
+  display: flex;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+
+}
+
+.tabs button {
+
+  background: transparent;
+
+  border: none;
+
+  color: gray;
+
+  padding: 10px;
+
+  cursor: pointer;
+
+}
+
+.tabs .active {
+
+  color: white;
+
+  border-bottom: 2px solid #2563eb;
+
+}
+
+/* CONTENT */
+
+.wo-content {
+
+  margin-top: 10px;
+
+}
+
+/* GRID */
+
+.grid-2 {
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+
+  gap: 20px;
+
+}
+
+/* SECTION */
+
+.section-card {
+
+  background: #1e293b;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+}

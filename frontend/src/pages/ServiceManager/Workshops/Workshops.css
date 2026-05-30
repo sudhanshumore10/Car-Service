@@ -1,0 +1,76 @@
+.container {
+    padding: 20px;
+    margin-left: 280px !important;
+    margin-right: 35px !important;
+    margin-top: 30px;
+    border-radius: 28px;
+    background: rgba(9, 15, 27, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 24px 55px rgba(2, 6, 23, 0.28);
+}
+
+.container h2,
+.container h3 {
+    color: white;
+}
+
+.add-btn {
+    margin: 20px 20px 10px;
+    padding: 12px 18px;
+    background: rgb(255, 0, 0) !important;
+    color: white !important;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.add-btn:hover {
+    background: rgb(210, 51, 51)!important;
+}
+
+.workshop-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.workshop-page-message {
+    margin: 6px 20px 0;
+    color: #cbd5e1;
+    font-size: 0.96rem;
+}
+
+.workshop-card {
+    width: 250px;
+    padding: 15px;
+    background: linear-gradient(160deg, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.92));
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 14px 28px rgba(2, 6, 23, 0.22);
+}
+
+.wname {
+    color: white !important;
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.workshop-empty-state {
+    width: 100%;
+    padding: 28px;
+    border-radius: 18px;
+    border: 1px dashed rgba(255, 255, 255, 0.18);
+    color: #cbd5e1;
+    background: rgba(15, 23, 42, 0.45);
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}

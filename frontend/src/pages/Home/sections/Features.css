@@ -1,0 +1,30 @@
+.features {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin-bottom: 10px !important;
+}
+
+.feature {
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  opacity: 0.9;
+}
+
+.icon {
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  width: 90px;
+  height: 60px;
+  border-radius: 6px;
+}
+
+.feature p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,12 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+[remote "origin"]
+	url = http://cvwjeemys11:4000/Dec25-SET-Interns1-Java-React-A/group17-backend
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	rebase = false
+	merge = refs/heads/master

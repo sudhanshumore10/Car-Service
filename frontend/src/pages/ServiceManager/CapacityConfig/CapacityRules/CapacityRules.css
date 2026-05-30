@@ -1,0 +1,117 @@
+.capacity-container {
+     padding:24px;
+     color: #e0e0e0;
+    } 
+
+.capacity-header h3 {
+     font-size: 18px;
+      font-weight:600;
+      color: #ffffff;
+       margin: 0 0 4px;
+     } 
+
+.capacity-sub { 
+    font-size: 13px;
+    color: #888;
+     margin: 0 0 20px;
+     }
+.capacity-error {
+     background: rgba(255, 50, 50, 0.15);
+     border: 1px solid #ff4444;
+     color:#ff7777;
+     border-radius:6px;
+     padding:10px 14px;
+     font-size:13px;
+     margin-bottom:16px;
+    } 
+.capacity-form { 
+    display:flex;
+    gap:14px;
+    align-items:flex-end;
+    flex-wrap:wrap;
+     margin-bottom:24px;
+    } 
+.capacity-form label { 
+    display:flex;
+     flex-direction:column;
+     gap:6px;
+     font-size:12px;
+     color:#aaa;
+      font-weight:500;
+      text-transform:uppercase;
+      letter-spacing:0.04em;
+    } 
+.capacity-form input {
+     background:#1a1a1a;
+      border:1px solid #333;
+      border-radius:6px;
+       color:#e0e0e0;
+       padding:8px 12px;
+       font-size:14px;
+        outline:none;
+        transition:border-color 0.2s;
+        min-width:130px;
+    }
+ .capacity-form input:focus {
+     border-color:#e00;
+     } 
+.capacity-add-btn { 
+    background:#cc0000;
+    color:#fff;
+    border:none;
+     border-radius:6px;
+      padding:9px 18px;
+       font-size:14px;
+       font-weight:600;
+       cursor:pointer;
+       transition:background 0.2s;
+       height:38px;
+
+    } 
+.capacity-add-btn:hover { 
+    background:#ff1111;
+ } 
+ 
+ .capacity-loading, .capacity-empty { color:#666;
+    font-size:14px;
+    text-align:center;
+    padding:30px 0;
+} 
+ .rules-table { width:100%;
+    border-collapse:collapse;
+    font-size:14px;
+} 
+ .rules-table th { color:#aaa;
+     text-align:left;
+     padding:10px 14px;
+
+     font-size:12px;
+     font-weight:600;
+     text-transform:uppercase;
+     letter-spacing:0.04em;
+     border-bottom:1px solid #2a2a2a;
+    }
+
+.rules-table td { color:#ddd;
+    padding:12px 14px;
+    border-bottom:1px solid #1e1e1e;
+}
+ .rules-table tr:hover td { background:#111;} 
+ .capacity-badge { background:#1a1a1a;
+    border:1px solid #333;
+    border-radius:20px;
+    padding:3px 12px;
+    font-size:13px;
+    color:#fff;}
+ .delete-btn { background:transparent;
+    border:1px solid #444;
+    color:#ff5555;
+    border-radius:5px;
+    padding:5px 12px;
+    font-size:12px;
+    cursor:pointer;
+    transition:all 0.2s;} 
+.delete-btn:hover { 
+    background:rgba(255, 50, 50, 0.1);
+    border-color:#ff4444;
+}

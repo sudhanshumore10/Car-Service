@@ -1,0 +1,35 @@
+.roster-form {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.roster-form select,
+.roster-form input[type="time"] {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #e0e0e0;
+    padding: 7px 10px;
+    font-size: 13px;
+    outline: none;
+    cursor: pointer;
+}
+
+.roster-form select:focus,
+.roster-form input:focus {
+    border-color: #cc0000;
+}
+
+.roster-form select {
+    flex: 1;
+    min-width: 160px;
+}
+
+.tech-time {
+    font-size: 13px;
+    color: #888;
+    font-variant-numeric: tabular-nums;
+}

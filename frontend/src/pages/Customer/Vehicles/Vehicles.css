@@ -1,0 +1,81 @@
+.vehicles-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.vehicle-card {
+  background: #fff;
+  padding: 1.35rem;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 50px rgba(15, 23, 42, 0.12);
+}
+
+.vehicle-card p {
+  margin: 0 0 0.65rem 0;
+  font-size: 0.93rem;
+  color: #334155;
+}
+
+.vehicle-card p:last-child {
+  margin-bottom: 0;
+}
+
+.vehicle-card b {
+  color: #0f172a;
+}
+
+.view-doc-btn,
+.activate-btn,
+.add-v-btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.72rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.add-v-btn {
+  background: linear-gradient(135deg, #cf3b3b, #8f1722);
+  color: white;
+  margin-bottom: 1.25rem;
+}
+
+.view-doc-btn {
+  margin-top: 0.45rem;
+  margin-right: 0.65rem;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.activate-btn {
+  margin-top: 0.45rem;
+  background: #e2fbe8;
+  color: #166534;
+}
+
+.add-v-btn:hover,
+.view-doc-btn:hover,
+.activate-btn:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 960px) {
+  .vehicle-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,24 @@
+.diagnosis-section{
+    width: 100%;
+}
+.checklist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.checkbox-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+.notes textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 14px;
+}

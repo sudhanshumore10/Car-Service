@@ -1,0 +1,125 @@
+.nav-tabs {
+    border-bottom: none;
+}
+
+.booking-heading {
+    margin-left: 250px;
+}
+
+.nav-tabs .nav-link {
+    background-color: transparent !important;
+    color: #04364A !important;
+    font-weight: 500;
+    border: none !important;
+    border-radius: 10px;
+    padding: 8px 18px;
+    transition: all 0.2s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: rgba(23, 107, 135, 0.1);
+    color: #176B87 !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #176B87 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.nav-tabs .nav-link:not(.active) {
+    color: #04364A !important;
+}
+
+h3 {
+    color: #04364A;
+}
+
+.booking-page {
+    padding: 20px 30px;
+    background: transparent;
+}
+
+.heatmap-wrapper {
+    background: transparent;
+    padding: 0;
+}
+
+.booking-table-card {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+.booking-table-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #04364A;
+    margin-bottom: 15px;
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+
+.booking-table thead th {
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 16px;
+}
+
+.booking-table tbody tr {
+    background: #f9fbfc;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.booking-table tbody td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.booking-table tbody td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.booking-table td {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    padding: 12px 16px;
+    white-space: nowrap;
+}
+
+.status {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status.confirmed {
+    background-color: #d1f7e0;
+    color: #198754;
+}
+
+.booking-table tbody tr:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.time-badge {
+    background: #eef6f9;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}

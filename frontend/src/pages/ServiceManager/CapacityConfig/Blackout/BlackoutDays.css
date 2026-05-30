@@ -1,0 +1,140 @@
+.blackout-container {
+    padding: 24px;
+    color: #e0e0e0;
+}
+
+.blackout-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 4px;
+}
+
+.blackout-sub {
+    font-size: 13px;
+    color: #888;
+    margin: 0 0 20px;
+}
+
+.blackout-error {
+    background: rgba(255, 50, 50, 0.15);
+    border: 1px solid #ff4444;
+    color: #ff7777;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.blackout-form {
+    display: flex;
+    gap: 14px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.blackout-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.blackout-form input {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #e0e0e0;
+    padding: 8px 12px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    min-width: 180px;
+}
+
+.blackout-form input:focus {
+    border-color: #e00;
+}
+
+.blackout-add-btn {
+    background: #cc0000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 38px;
+    transition: background 0.2s;
+}
+
+.blackout-add-btn:hover {
+    background: #ff1111;
+}
+
+.blackout-empty {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.blackout-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blackout-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 14px 18px;
+    transition: border-color 0.2s;
+}
+
+.blackout-card:hover {
+    border-color: #333;
+}
+
+.blackout-card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.blackout-date {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.blackout-reason {
+    font-size: 13px;
+    color: #888;
+}
+
+.blackout-delete {
+    background: transparent;
+    border: 1px solid #444;
+    color: #ff5555;
+    border-radius: 5px;
+    padding: 5px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.blackout-delete:hover {
+    background: rgba(255, 50, 50, 0.1);
+    border-color: #ff4444;
+}

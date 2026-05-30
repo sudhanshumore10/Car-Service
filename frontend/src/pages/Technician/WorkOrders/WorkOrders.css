@@ -1,0 +1,101 @@
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 30px 20px 30px;
+}
+.header-actions {
+    display: flex;
+    gap: 15px;
+}
+.search-input {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 14px;
+}
+.btn-filter {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn-filter span {
+    font-size: 10px;
+    color: #94a3b8;
+}
+.content-layout {
+    padding: 0 30px;
+}
+.table-premium {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-premium th {
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 11px;
+    color: #475569;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #334155;
+}
+.table-premium td {
+    padding: 20px;
+    border-bottom: 1px solid #1e293b;
+    vertical-align: middle;
+}
+.table-premium tr:last-child td {
+    border-bottom: none;
+}
+.wo-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+.wo-link:hover {
+    color: #3b82f6;
+}
+.cust-name, .veh-model {
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.cust-phone, .veh-vin {
+    margin: 4px 0 0 0;
+    color: #64748b;
+    font-size: 12px;
+}
+.status-badge.completed {
+    background: #064e3b;
+    color: #10b981;
+}
+.status-badge.pending {
+    background: #451a03;
+    color: #eab308;
+}
+.btn-outline-sm {
+    background: transparent;
+    border: 1px solid #334155;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.2s;
+}
+.btn-outline-sm:hover {
+    background: #1e293b;
+    border-color: #475569;
+}

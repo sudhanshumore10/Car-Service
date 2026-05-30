@@ -1,0 +1,186 @@
+.hero{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.hero-bg{
+  position: absolute;
+  width: 140%;
+  height: 140%;
+  margin-top: -200px;
+  margin-left: 20px;
+  background: url("../../../assets/images/hero.svg") center/cover no-repeat;
+  z-index: 1;
+}
+
+.hero-overlay{
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  padding: 0 80px;
+}
+
+.hero-content{
+  margin-top: 150px;
+  max-width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-text{
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.hero h1{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+.hero h1 span{
+  color: #ff2b2b;
+}
+
+.cta-btn{
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background: #f51d1d;
+  color: white;
+  padding: 10px 20px;
+  border:none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.cta-btn:hover{
+  background: white;
+  color: black;
+}
+
+
+/* RESPONSIVE
+@media (max-width: 768px) {
+  .hero-overlay {
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+} */
+/* body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 110px 20px 140px;
+  background: linear-gradient(135deg, #2563eb, #22c55e);
+  color: white;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  top: -200px;
+  left: -200px;
+}
+#badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  padding: 6px 14px;
+  border-radius: 14px ;
+  font-size: 14px;
+  width: 240px;
+  margin-bottom: 15px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 650;
+  font-style: italic;
+  letter-spacing: -0.5px;
+}
+.hero p {
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.6px;
+  opacity: 0.9;
+}
+#highlight{
+    font-family: 'Segoe Script', cursive;
+    font-size: 1.2em;
+    color: #facc15;
+}
+.hero-buttons {
+  margin-top: 25px;
+}
+.cta-btn {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  color: #14364a;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+}
+.cta-btn:hover{
+    background-color: #14364a;
+    color: white;
+    padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  margin-right: 10px;
+  box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+}
+.secondary-btn {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+.trust {
+  margin-top: 15px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+.wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+} */

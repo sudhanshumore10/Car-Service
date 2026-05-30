@@ -1,0 +1,482 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    align-items: stretch;
+    background:
+        radial-gradient(circle at top right, rgba(207, 59, 59, 0.12), transparent 28rem),
+        linear-gradient(180deg, #08111d 0%, #101f33 100%);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.sidebar {
+    width: 220px;
+    background: #04070d;
+    color: #e2e8f0;
+    padding: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    position: fixed;
+    inset: 0 auto 0 0;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.menu {
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    background-color: #cf3b3b;
+    color: #f8fafc;
+}
+
+.menu.active {
+    color: #f8fafc;
+    background-color: #cf3b3b;
+    font-weight: 500;
+}
+
+.logout:hover {
+    background-color: #cf3b3b !important;
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 240px;
+    min-height: 100vh;
+    padding: 30px 30px 110px;
+    background-color: transparent !important;
+    overflow-x: hidden;
+}
+
+.main-card,
+.panel,
+.info-card {
+    background: rgba(9, 15, 27, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    box-shadow: 0 24px 55px rgba(2, 6, 23, 0.28);
+    color: #e2e8f0;
+}
+
+.main-card {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin: 20px 0;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.tab-content {
+    padding: 20px;
+    color: #e2e8f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.topbar-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.topbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 12px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.toolbar .left {
+    display: flex;
+}
+
+.toolbar .right {
+    display: flex;
+    gap: 10px;
+}
+
+.workshop-select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.export-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    margin-top: 10px;
+}
+
+.tab {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #94a3b8;
+    position: relative;
+}
+
+.tab.active {
+    color: #60a5fa;
+    font-weight: 500;
+}
+
+.tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #60a5fa;
+}
+
+.dashboard-container {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.dashboard-container h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f8fafc !important;
+    margin: 0;
+}
+
+.dashboard-container h3,
+.dashboard-container h4 {
+    color: #f8fafc;
+    margin: 0;
+}
+
+.dashboard-container p {
+    margin: 0;
+    color: #cbd5e1;
+}
+
+.header-section {
+    background: linear-gradient(135deg, rgba(8, 15, 28, 0.95), rgba(25, 54, 102, 0.9));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 28px;
+    padding: 1.8rem 2rem;
+    box-shadow: 0 26px 60px rgba(2, 6, 23, 0.3);
+}
+
+.header-title {
+    display: grid;
+    gap: 0.55rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.info-card {
+    padding: 1.2rem 1.25rem;
+}
+
+.panel {
+    padding: 1.2rem 1.25rem;
+}
+
+.label {
+    color: #94a3b8 !important;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.65rem !important;
+}
+
+.sub-label {
+    color: #94a3b8 !important;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.info-card h3 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-outline-sm {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.05);
+    color: #f8fafc;
+    border-radius: 999px;
+    padding: 0.78rem 1.15rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-outline-sm:hover {
+    transform: translateY(-1px);
+    background: rgba(207, 59, 59, 0.18);
+    border-color: rgba(248, 113, 113, 0.4);
+}
+
+.customer-detail-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.customer-detail-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.customer-detail__label {
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.customer-detail__value {
+    color: #f8fafc;
+    font-weight: 700;
+}
+
+.dashboard-table-premium {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.dashboard-table-premium thead th {
+    color: #94a3b8;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    padding: 0.9rem 0.85rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.dashboard-table-premium tbody td {
+    color: #e2e8f0;
+    padding: 0.95rem 0.85rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dashboard-table-premium tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 92px;
+    border-radius: 999px;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.status-confirmed {
+    background: rgba(34, 197, 94, 0.14);
+    color: #86efac;
+    border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+.status-cancelled {
+    background: rgba(248, 113, 113, 0.14);
+    color: #fca5a5;
+    border: 1px solid rgba(248, 113, 113, 0.35);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.form-select {
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(9, 15, 27, 0.95);
+    color: #f8fafc;
+    padding: 0.9rem 1rem;
+    outline: none;
+}
+
+.form-select:focus {
+    border-color: rgba(96, 165, 250, 0.9);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.pickup-manager-stack {
+    display: grid;
+    gap: 0.75rem;
+    min-width: 360px;
+}
+
+.pickup-manager-card {
+    display: grid;
+    gap: 0.55rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    background: rgba(15, 23, 42, 0.62);
+    border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.pickup-manager-card__head,
+.pickup-manager-card__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.pickup-manager-card__head span {
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    background: rgba(59, 130, 246, 0.18);
+    color: #bfdbfe;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.pickup-manager-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+}
+
+.pickup-manager-card input,
+.pickup-manager-card select,
+.pickup-manager-card textarea {
+    width: 100%;
+    min-width: 0;
+    border: 1px solid rgba(148, 163, 184, 0.26);
+    border-radius: 8px;
+    padding: 0.55rem 0.65rem;
+    background: rgba(15, 23, 42, 0.88);
+    color: #e5e7eb;
+    outline: none;
+}
+
+.pickup-manager-card textarea {
+    min-height: 64px;
+    resize: vertical;
+}
+
+.pickup-manager-card__foot span {
+    color: #94a3b8;
+    font-size: 0.78rem;
+}
+
+@media (max-width: 1100px) {
+    .cards,
+    .bottom-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 760px) {
+    .layout {
+        display: block;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        border-right: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 18px;
+    }
+
+    .cards,
+    .bottom-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

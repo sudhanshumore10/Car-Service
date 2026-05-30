@@ -1,0 +1,76 @@
+.why-section {
+  position: relative;
+  height: 100vh;
+  color: white;
+}
+
+.why-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("../../../assets/images/about.svg") center/cover no-repeat;
+  filter: brightness(0.4);
+}
+
+.why-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.tag1 {
+  color: #aaa !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.why-overlay h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.why-overlay span {
+  color: #ff2b2b;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.why-card {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+
+.why-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.why-card p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+  line-height: 1.5;
+  letter-spacing: 0.7px;
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-overlay h1 {
+    font-size: 40px;
+  }
+}

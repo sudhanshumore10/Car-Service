@@ -1,0 +1,136 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: #1b2b4c;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    border-right: 1px solid #2a3b5c;
+}
+.sidebar-header {
+    background-color: #f03a17;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.brand {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+}
+.version {
+    font-size: 11px;
+    color: #ffd0c7;
+    margin-top: 2px;
+}
+.sidebar-section {
+    margin-bottom: 25px;
+}
+.section-title {
+    font-size: 11px;
+    font-weight: bold;
+    color: #8fa0c4;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+li {
+    margin-bottom: 0;
+}
+li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    color: #cbd5e1;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+li.active a {
+    background: #f03a17;
+    color: white;
+    font-weight: 600;
+}
+li a:hover {
+    color: white;
+    background: #263b65;
+}
+li a .icon {
+    font-size: 18px;
+}
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 15px;
+    border-top: 1px solid #2a3b5c;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    background: #2a3b5c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.user-info {
+    overflow: hidden;
+}
+.user-name {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.user-role {
+    font-size: 12px;
+    color: #8fa0c4;
+    margin: 0;
+    margin-top: 2px;
+}

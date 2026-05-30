@@ -1,0 +1,73 @@
+.feedback-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #091429 0%, #0d2245 100%);
+  color: #eef4ff;
+}
+
+.feedback-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 110px 20px 40px;
+}
+
+.feedback-subtitle {
+  color: #b6c4e2;
+  margin-bottom: 24px;
+}
+
+.feedback-section {
+  margin-bottom: 32px;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.feedback-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.feedback-card label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.feedback-card input,
+.feedback-card select,
+.feedback-card textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(6, 15, 33, 0.7);
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.feedback-card button {
+  margin-top: 14px;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #ff845c, #ff5c7a);
+  color: #fff;
+  font-weight: 700;
+}
+
+.feedback-empty,
+.manager-response {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.manager-response {
+  margin-top: 12px;
+}
